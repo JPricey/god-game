@@ -1,1 +1,0 @@
-async function o(){self.postMessage("startup");const s=await import("./wasm_app-BHx6T-tI.js");await s.default();const a=new s.WasmApp;self.onmessage=async e=>{const t=a.computeNextMove(e.data[0],e.data[1]);self.postMessage(t)},self.postMessage("ready")}o();
