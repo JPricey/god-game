@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://jpricey.github.io/god-game/sw.js', { scope: 'https://jpricey.github.io/god-game/' })})}
